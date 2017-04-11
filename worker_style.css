@@ -1,0 +1,216 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\000031}}
+#ver-center {
+  position: absolute;
+  top: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\000035}}
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000310}}
+body header {
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 3rem;
+  background-color: #5fc0cd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000317}}
+body header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000321}}
+body header div button {
+  width: 4.2rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000327}}
+body header div .employer {
+  color: #ffffff;
+  background-color: #55a8b3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000331}}
+body header div .worker {
+  color: #5fc0cd;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000336}}
+body header img {
+  position: absolute;
+  top: 50%;
+  right: .5rem;
+  transform: translateY(-50%);
+  width: 1.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000343}}
+body main {
+  margin-top: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000346}}
+body main .select-div .select-span {
+  position: absolute;
+  display: inline-block;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  width: 33.33%;
+  text-align: center;
+  font-size: 1rem;
+  color: #999999;
+  box-sizing: border-box;
+  border: 1px solid #e1e5e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000357}}
+body main .select-div .select-span .t3 {
+  display: inline-block;
+  float: right;
+  margin-top: 1.2rem;
+  margin-right: .2rem;
+  width: 0;
+  height: 0;
+  border: 6px;
+  border-style: solid;
+  border-color: #afbac0 transparent transparent transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000369}}
+body main .select-div .span-place {
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000372}}
+body main .select-div .span-live {
+  left: 33.33%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000375}}
+body main .select-div .span-sick {
+  left: 66.66%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000378}}
+body main .select-div .select {
+  position: absolute;
+  top: 3rem;
+  width: 33.33%;
+  height: 2.8rem;
+  opacity: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000385}}
+body main .select-div .select option {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000389}}
+body main .select-div .select-place {
+  left: 0;
+  /* 混入 */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000392}}
+body main .select-div .select-live {
+  left: 33.33%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000395}}
+body main .select-div .select-sick {
+  left: 66.66%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\0000399}}
+body main .list-div {
+  position: relative;
+  top: 2.8rem;
+  margin-bottom: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003103}}
+body main .list-div .list-line {
+  padding: 0 .5rem;
+  border-bottom: 1px solid #e1e5e7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003106}}
+body main .list-div .list-line .serv-addr {
+  padding: .3rem 0;
+  font-size: 1rem;
+  color: #999999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003110}}
+body main .list-div .list-line .serv-addr img {
+  width: .9rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003114}}
+body main .list-div .list-line .list-center {
+  padding: .3rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003116}}
+body main .list-div .list-line .list-center .time {
+  margin-left: 1.2rem;
+  font-size: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003120}}
+body main .list-div .list-line .list-center div {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003124}}
+body main .list-div .list-line .list-center div .price {
+  display: inline-block;
+  margin-right: .3rem;
+  font-size: 1.1rem;
+  color: #e63b0e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003130}}
+body main .list-div .list-line .list-center div a img {
+  width: .7rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003138}}
+body footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #f8fafb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003144}}
+body footer .home-page {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -37%);
+  text-align: center;
+  width: 1.8rem;
+  height: 3rem;
+  line-height: 3.8rem;
+  font-size: .65rem;
+  color: #5fc0cd;
+  background: url(images_worker/home_page.png) no-repeat;
+  background-position-x: .1rem;
+  background-size: 1.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003159}}
+body footer .mine {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -37%);
+  text-align: center;
+  width: 1.8rem;
+  height: 3rem;
+  line-height: 3.8rem;
+  font-size: .65rem;
+  color: #999999;
+  background: url(images_worker/mine.png) no-repeat;
+  background-position-x: .1rem;
+  background-size: 1.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task12\/worker_style\.less}line{font-family:\00003174}}
+body footer img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+}
+/*# sourceMappingURL=worker_style.css.map */
